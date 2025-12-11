@@ -32,12 +32,33 @@ public class pattern {
     */
 
 
+/* 
+public class pattern {
+    public static void main(String[]args){
+        for(int i=0; i<10; i++){
+            for(int j=4; j<i+1; j++){
+                System.out.print(j+1);
+            }
+
+
+            System.out.println("");
+
+        }
+
+    }
+}
+*/
+    
+   
+
 
 public class pattern {
     public static void main(String[]args){
-        for(int i=0; i<5; i++){
+        int count=0;
+        for(int i=0; i<4; i++){
             for(int j=0; j<i+1; j++){
-                System.out.print(j+1);
+                System.out.print(count);
+                count++;
             }
 
 
