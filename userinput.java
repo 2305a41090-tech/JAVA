@@ -22,16 +22,16 @@ public class userinput {
        char op =sc.next().charAt(0);
        if(op=='+'){
         int sum=a+b;
-        System.out.println("addition is +add");
+        System.out.println("addition is" +add);
        }
        else if(op=='-'){
-        System.out.println("substration");
+        System.out.println("substration"+sub);
        }
         else if(op=='*'){
-            System.out.println("mutlpication");
+            System.out.println("mutlpication"+multi);
         }
         else if(op=='/'){
-                System.out.println("divison");
+                System.out.println("divison"+divi);
             }
         }
        }
